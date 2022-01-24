@@ -1,0 +1,22 @@
+Type: Package
+Package: wikipedataframe
+Title: Import Wikipedia tables to dataframes
+Version: 0.0.0.9000
+Author: c(person(given = "Theodor", family = "Stenevang Klemming", role =
+    "aut", email = "theodor@stenevang.net")
+Maintainer: Theodor Stenevang Klemming <theodor@stenevang.net>
+Description: Downloads a Wikipedia URL and grabs each table found into a
+    dataframe, and returns a list containing all dataframes created.
+License: MIT + file LICENSE
+URL: https://github.com/stenevang/wikipedataframe
+Depends: 
+    R (>= 4.1),
+    rvest,
+    xml2
+Imports: 
+    rvest,
+    xml2
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
